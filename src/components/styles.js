@@ -4,6 +4,7 @@ import {StyleSheet} from 'react-native';
 export const styles = StyleSheet.create({
   container: {
     flex: 1,
+    backgroundColor:'white'
   },
   containerDev:{
     flex: 1,
@@ -22,6 +23,11 @@ export const styles = StyleSheet.create({
     display:'flex',
     height:'100%',
     width:'100%'
+  },
+  signLogo:{
+    display:'flex',
+    height:'70%',
+    width:'95%'
   },
   welcomeText:{
     fontSize: 26,
@@ -42,5 +48,9 @@ export const styles = StyleSheet.create({
   },
   inputField: {
     width:'100%'
+},
+SignInBtns:{
+  height:20,
+  marginBottom:10
 }
  });

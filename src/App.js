@@ -1,12 +1,14 @@
 import React from 'react';
 import { SafeAreaView, View, Text } from 'react-native';
 import { styles } from './components/styles';
-import WelcomeScreen from './screens/WelcomeScreen';
+// import WelcomeScreen from './screens/WelcomeScreen';
+import SignInScreen from './screens/SignInScreen/SignInScreen';
 
 const App = () => {
   return (
     <SafeAreaView style={styles.container}>
-      <WelcomeScreen />
+      <SignInScreen />
+      {/* <WelcomeScreen/> */}
     </SafeAreaView>
   );
 };
