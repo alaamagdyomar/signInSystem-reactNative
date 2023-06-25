@@ -1,5 +1,12 @@
 # signInSystem-reactNative
 
+Run the application :- 
+
+1 - npm install 
+2 - npx react-native run-android
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Sure! Here's an example of a README.md file for the `CustomButton` component:
 
 ########################################## CustomButton Component
